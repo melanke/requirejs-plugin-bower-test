@@ -9,7 +9,15 @@ and open the template in the editor.
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script data-main="js/controller/index" src="../bower_components/requirejs/require.js"></script>
+        <script src="../bower_components/requirejs/require.js"></script>
+        <script src="js/requireConfig.js"></script>
+        <script>
+            require(['bower!bower.json'], function() {
+                
+                require(["js/controller/index"]);
+
+            });
+        </script>
     </head>
     <body>
         
