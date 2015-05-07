@@ -1,0 +1,22 @@
+{
+  "name": "Test",
+  "version": "1.0.0",
+  "authors": [
+    "Gil Lopes Bueno <melanke.hc@gmail.com>"
+  ],
+  "description": "test ue",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "martinlabs": "git+ssh://git@bitbucket.org/martinlabs/martin.labs-javascript-commons.git",
+    "requirejs-plugin-bower": "*",
+    "requirejs": "~2.1.17"
+  }
+}
